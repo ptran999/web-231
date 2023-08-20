@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB 231 – Enterprise JavaScript I.</title>
+    <link rel="stylesheet" href="site.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HTML code -->
+    <h2>The addEventListener() Method</h2>
+    
+    <p>Attach a click event to a button:</p>
+    
+    <button id="myBtn">Try it</button>
+    
+    <p id="demo"></p>
+    
+    <!-- Javascript code -->
+    <script>
+    /* assign a const and connect with an id */
+        const element = document.getElementById("myBtn");
+    /*  add event listener into button when it is clicked and executed "hello world" */ 
+        element.addEventListener("click", function() {
+          document.getElementById("demo").innerHTML = "Hello World";
+        });
+    </script>
+    </body>
+</html>
