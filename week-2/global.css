@@ -1,0 +1,13 @@
+/* Global CSS */
+.return-home {
+    color: #4F3674;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #4F3674 ;
+}
+
+a:visited {
+    color: #3C275A;
+}
