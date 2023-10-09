@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+   <html lang='en'>
+      <head>
+         <meta charset="UTF-8">
+         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="tran-thecardgame.css" type="text/css">
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+         <title>WEB 231 – Enterprise JavaScript I</title>
+      </head>
+      <body>
+         <div id="container">
+            <h1 class="app-header">Welcome to the Card Game!</h1>
+            <div class="card">
+               <div class="card-title">Card Dealer</div>
+               <div class="form">
+                  <div class="form-field">
+                     <button id="btnDealCards" class="btn" onclick="main()" >Deal Cards</button>
+                  </div>
+               </div>
+            <br>                
+            </div>
+            <a class="return-home" href="tran-thecardgame.html">Return</a>
+            <!--Card to display results-->
+            <div id="results-container">
+               <div class="card">
+                  <div class="card-title">Shuffled Cards</div>
+                  <div class="card-content" id="results"></div>
+               </div>
+               <br>
+            </div>
+         </div>
+     
+<script src="java.js" ></script>
+</body>
+</html>
